@@ -1,0 +1,5 @@
+@charset "UTF-8";
+
+body {
+    background-image: radial-gradient(circle, yellow, red, black);
+}
