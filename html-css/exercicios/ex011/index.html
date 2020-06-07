@@ -1,25 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exercício 011</title>
+    <title>Mídias em HTML5</title>
 </head>
 <body>
-    <div>
-        <h1>Imagens dinâmicas</h1>
-        <picture>
-            <source media="(max-width: 750px)" srcset="imagens/bicicleta_p.png" type="image/png"> <!--pequena-->
-            <source media="(max-width: 1050px)" srcset="imagens/carro_m.png" type="image/png"> <!--média-->
-            <img src="imagens/caminhao_g.png" alt=""> <!--imagem padrão. grande.-->
-        </picture>
-    </div>
-    <div>
-        <h1>Áudios</h1>
-        <audio preload="metadata" controls>
-            <source src="midia/guanacast-33.mp3" type="audio/mpeg">
-            <p>Seu navegador não suporta áudio. <a href="midia/guanacast-33.mp3" download="guanacast-33.mp3" type="audio/mpeg">download do áudio aqui.</a></p>
-        </audio>
-    </div>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho da janela do seu navegador.</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="Imagem flexível">
+    </picture>
+
+    <h2>Reproduzindo Áudio</h2>
+    <p>Vamos aprender a reproduzir áudio em HTML5.</p>
+    <audio preload="metadata" autoplay controls >
+        <source src="midias/Bab_Tista.mp3" type="audio/mpeg">
+        <source src="midias/Bab_Tista.ogg" type="audio/ogg">
+        <source src="midias/Bab_Tista.wav" type="audio/wav"> <!--WAV é muito pesado-->
+        <p>Seu navegador não conseguiu reproduzir o áudio! <a href="midias/Bab_Tista.mp3">Clique aqui para baixar o arquivo MP3.</a></p>
+    </audio>
+    <!--MP3 WAV OGG-->
+
+
+
+
+    
 </body>
 </html>
