@@ -1,0 +1,64 @@
+@font-face {
+    font-family: 'droid';
+    src: url(../fontes/idroid.otf) format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: auto;
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+#superior {
+    background-image: linear-gradient(rgb(135, 228, 150), rgb(59, 97, 59));
+    height: 200px;
+}
+
+#cabecalho {
+    text-align: center;
+}
+
+#cabecalho > h1 {
+    font: normal bold 30px Helvetica, Arial, sans-serif;
+    color: white;
+
+    text-shadow: 0.7px 0.9px black;
+
+    padding-top: 30px;
+
+}
+
+#cabecalho > h2 {
+    font: normal bold 20px Helvetica, Arial, sans-serif;
+    color: rgba(231, 231, 231, 0.979);
+
+    text-shadow: 0.3px 0.5px black;
+
+    padding-top: 20px;
+}
+
+#topnav {
+    overflow: hidden;
+    padding-top: 55px;
+}
+
+#topnav a {
+    float: left;
+    display: block;
+
+    padding: 5px;
+    margin: 5px;
+
+    text-decoration: none;
+
+    color: rgba(255, 255, 255, 0.822);
+    font-size: 18px;
+    text-shadow: 0.3px 0.5px black;
+}
+
+
+
