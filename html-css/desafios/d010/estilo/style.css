@@ -75,6 +75,10 @@ ul#navigation-menu > li a:hover:not(#pag_atual) {
     header {
         height: 180px;
     }
+
+    main {
+        width: 100%;
+    }
 }
 
 
