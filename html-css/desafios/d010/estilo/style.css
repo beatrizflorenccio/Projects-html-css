@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'droid';
-    src: url(./fontes/idroid.otf) format('opentype');
+    src: url(../fontes/idroid.otf) format('opentype');
     font-weight: normal;
     font-style: normal;
 }
@@ -82,7 +82,7 @@ main {
     width: 70%;
     background-color: white;
 
-    box-shadow: 2px 2px 8px rgba(32, 32, 32, 0.623);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);;
 
     padding: 18px 15px 18px 15px;
 }
