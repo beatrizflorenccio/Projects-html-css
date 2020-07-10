@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-Classes</title>
+    <style>
+        div {
+            display: inline-block;
+            background-color: lightgray;
+
+            /*shorthand border: largura, tipo, cor*/
+            border: 1px solid black;
+
+            text-align: center;
+
+            height: 200px; /*altura*/
+            width: 200px; /*largura*/
+        }
+
+        /*Pseudo-Classes
+            - Estão relacionadas ao estado de um elemento
+            - se ele está ativo, habilitado etc...
+            - configura o estado de um elemento
+        */
+
+        div:hover { /*quando o mouse está por cima*/
+            background-color: orange;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="d1">01</div>
+    <div id="d2">02</div>
+    <div id="d3">03</div>
+    
+</body>
+</html>
