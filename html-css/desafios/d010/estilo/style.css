@@ -46,7 +46,7 @@ body {
 
 #topnav {
     overflow: hidden;
-    padding-top: 55px;
+    padding-top: 3.5%; /*RESOLVER! NÃO ESTÁ RESPONSIVO!*/
 }
 
 #topnav a {
