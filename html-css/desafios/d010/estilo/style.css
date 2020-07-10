@@ -11,11 +11,14 @@
 
 body {
     font-family: Helvetica, Arial, sans-serif;
+    background-color: rgba(68, 255, 99, 0.562);
 }
 
 #superior {
     background-image: linear-gradient(rgb(135, 228, 150), rgb(59, 97, 59));
-    height: 200px;
+    height: 180px;
+
+    box-shadow: 3px 3px 7px rgb(59, 97, 59);
 }
 
 #cabecalho {
@@ -28,7 +31,7 @@ body {
 
     text-shadow: 0.7px 0.9px black;
 
-    padding-top: 30px;
+    padding-top: 13px;
 
 }
 
@@ -59,6 +62,97 @@ body {
     font-size: 18px;
     text-shadow: 0.3px 0.5px black;
 }
+
+main#conteudo {
+    width: 70%;
+    background-color: white;
+
+    box-shadow: 2px 2px 8px rgba(32, 32, 32, 0.623);
+
+    padding: 18px 15px 18px 15px;
+}
+
+#conteudo h1 {
+    font-family: 'droid', Helvetica, sans-serif;
+    font-size: 25px;
+    color: rgb(52, 110, 52);
+
+}
+
+#conteudo p {
+    text-align: justify;
+    margin-top: 1.5%;
+
+    font: normal normal 16px Helvetica, Arial, sans-serif;
+    color: black;
+}
+
+#conteudo h2 {
+    font-family: 'droid', Helvetica, sans-serif;
+    font-size: 20px;
+    color: rgb(52, 110, 52);
+
+    background-image: linear-gradient(to right, rgba(68, 255, 99, 0.226), rgba(255, 255, 255, 0.938));
+
+    margin-top: 1.5%;
+}
+
+.imagem {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    width: 100%;
+}
+
+.img-pq {
+    width: 30%;
+}
+
+span {
+    font-weight: bold;
+    color: rgb(52, 110, 52);
+}
+
+.destaque {
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(52, 110, 52);
+}
+
+.destaque:visited {
+    color: rgb(52, 110, 52);
+}
+
+.destaque::after {
+    content: '🔗';
+}
+
+.caixa-video {
+    position: relative;
+    width: 70%;
+    padding: 18px 15px 18px 15px;
+    background-color: rgb(52, 110, 52);
+}
+
+.video {
+  width: 95%;
+  display: block;
+  padding-top: 1%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
