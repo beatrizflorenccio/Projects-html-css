@@ -16,7 +16,7 @@ body {
 
 #superior {
     background-image: linear-gradient(rgb(135, 228, 150), rgb(59, 97, 59));
-    height: 180px;
+    height: 110px;
 
     box-shadow: 3px 3px 7px rgb(59, 97, 59);
 }
@@ -44,24 +44,42 @@ body {
     padding-top: 20px;
 }
 
-#topnav {
+#nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
     overflow: hidden;
-    padding-top: 3.5%; /*RESOLVER! NÃO ESTÁ RESPONSIVO!*/
+    background-color: #333;
+
+    position: -ms-page;
+    top: 0;
+    
 }
 
-#topnav a {
+#nav > li {
     float: left;
-    display: block;
-
-    padding: 5px;
-    margin: 5px;
-
-    text-decoration: none;
-
-    color: rgba(255, 255, 255, 0.822);
-    font-size: 18px;
-    text-shadow: 0.3px 0.5px black;
 }
+
+#nav > li a {
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#nav > li a:hover {
+    background-color: #111;
+}
+
+@media screen and (max-width: 600px) { 
+    #superior {
+        height: 180px;
+
+    }
+
+    
+  }
+
 
 main#conteudo {
     width: 70%;
