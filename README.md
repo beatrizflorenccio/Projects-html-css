@@ -13,7 +13,7 @@
 
 ## Material das aulas
 
-No diretório [aulas-pdf](https://github.com/beatrizflorenccio/Studies-html-css/tree/master/aulas-pdf) estão os materiais em PDF para auxiliar nos estudos. Importante ressaltar que esse material pertence ao grande [Prof. Gustavo Guanabara]() e foi disponibilizado por ele em seu repositório no GitHub. 
+No diretório [aulas-pdf](https://github.com/beatrizflorenccio/Studies-html-css/tree/master/aulas-pdf) estão os materiais em PDF para auxiliar nos estudos. Importante ressaltar que esse material é referente ao curso de Desenvolvimento Web 2020 do [Curso em Vídeo]() e pertence ao [Prof. Gustavo Guanabara]().
 
 > Inclusive, deixo aqui a minha recomendação para o curso de Desenvolvimento Web (HTML5 + CSS3) do professor Guanabara. O curso ainda não está completo, está em processo de gravação e por enquanto está disponível somente para assinantes da plataforma [Estudonauta](), mas dentro de alguns meses será lançado gratuitamente no canal [Curso em Video]() do YouTube.
 
@@ -21,7 +21,7 @@ Os materiais foram muito bem elaborados e estão divididos em capítulos. Para u
 
 ## Atividades e Projetos
 
-No diretório [html-css](https://github.com/beatrizflorenccio/Studies-html-css/tree/master/html-css) estão as atividades que estão sendo desenvolvidas por mim ao longo do curso. Lembra dos materiais em PDF? Então, ao final de cada capítulo são propostas atividades: exercícios e/ou desafios.
+No diretório [html-css](https://github.com/beatrizflorenccio/Studies-html-css/tree/master/html-css) estão as atividades desenvolvidas por mim ao longo do curso. Lembra dos materiais em PDF? Então, ao final de cada capítulo são propostas atividades: exercícios e/ou desafios.
 
-A minha solução para cada exercício e desafio está disponível aqui mesmo nesse repositório. Está tudo organizado por capítulo.
+A minha solução para cada atividade está disponível aqui mesmo nesse repositório.
 
